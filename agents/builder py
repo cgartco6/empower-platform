@@ -1,0 +1,3 @@
+class BuilderAI:
+    def build(self, task):
+        return f"Generating code for modules: {task['modules']}"
