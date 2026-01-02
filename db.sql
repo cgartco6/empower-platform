@@ -1,0 +1,23 @@
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  email VARCHAR(255),
+  password VARCHAR(255),
+  paid TINYINT DEFAULT 0
+);
+
+CREATE TABLE stats (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  day DATE UNIQUE,
+  visitors INT DEFAULT 0,
+  free_users INT DEFAULT 0,
+  paid_users INT DEFAULT 0,
+  revenue DECIMAL(10,2) DEFAULT 0
+);
+
+CREATE TABLE courses (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(255),
+  description TEXT,
+  price DECIMAL(10,2),
+  is_free TINYINT DEFAULT 0
+);
