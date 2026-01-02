@@ -1,0 +1,5 @@
+DAY 3
+Visitors: 12,450
+Free courses: 1,220
+Paid buyers: 143
+Revenue: R4,147
