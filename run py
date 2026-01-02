@@ -1,0 +1,4 @@
+from brain.master_ai import MasterAI
+
+ai = MasterAI()
+print(ai.run())
